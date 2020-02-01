@@ -1,10 +1,12 @@
 #!/usr/bin/python3.5
-#Split entire sequence as per window size and then calculated GC skew 
+#By-Piyus Mohanty
+#Split entire sequence as per window size and then calculated GC skew
+#GC skew-GC skew is when the nucleotides guanine and cytosine are over- or under-abundant in a particular region of DNA or RNA.
 
 
 
 
-lines = open('/home/piyus/Desktop/python/rosalind/chr4.fa', "r").read().splitlines()
+lines = open('Enter the filename', "r").read().splitlines()
 seq=[]
 for idx,row in enumerate(lines):
 	if idx!=0:
