@@ -1,0 +1,10 @@
+>>>>>>>>>>Amino_acid_composition
+The amino acid composition is the number of amino acids of each type normalized with the total number of residues.
+It is defined as Comp(i) = ni∗100/N, 
+where i stands for the 20 amino acid residues; ni is the number of residues of each type, and N is the total number of residues. The summation is through all the
+residues in the considered protein.
+example of application- Amino acid composition is one of the parameters, which can be used to identify β-barrel membrane proteins.
+
+>>>>>>>>>>>Concensus.py
+5 different Dna sequences with length of 5 residues
+
