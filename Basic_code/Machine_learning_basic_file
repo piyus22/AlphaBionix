@@ -5,8 +5,8 @@
 import csv
 import math
 x=[]
-f=open("/home/piyus/Desktop/python/rosalind/training_file.csv")
-g=open("/home/piyus/Desktop/python/rosalind/predicted-labels.csv")
+f=open("training_file.csv")
+g=open("predicted-labels.csv")
 csv_f=csv.reader(f,delimiter='\t')
 csv_g=list(csv.reader(g))
 for row in csv_f:
