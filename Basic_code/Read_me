@@ -23,3 +23,8 @@ Input2- Contains the labels (0,1) of the feature file
 
 The code is used to calculate sensitivity, specificity, MCC, Likelihood, Positive predicted value (PPV) and Accuracy, using False positive (FP), True Positive (TP), False negative (FN), True negative (TN).
 
+
+>>>>>>>>>GC_skew.py
+Input- DNA sequence file
+The code splits the entire sequence as per window size and then calculates the GC skew.
+GC skew-GC skew is when the nucleotides guanine and cytosine are over- or under-abundant in a particular region of DNA or RNA.
