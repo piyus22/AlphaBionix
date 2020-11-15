@@ -34,7 +34,7 @@ GC skew-GC skew is when the nucleotides guanine and cytosine are over- or under-
 Input1-Enter DNA sequence
 Input2- Motif pattern to be found
 Motif-a sequence motif is a nucleotide or amino-acid sequence pattern that is widespread and has been proven or assumed to have a biological significance.
-This code finds the motif positon in the dna sequence. 
+This code finds the motif positon in the dna sequence. Also provides an alternative solution.
 
 
 >>>>>>Bio_pt_basic.py
