@@ -28,3 +28,10 @@ The code is used to calculate sensitivity, specificity, MCC, Likelihood, Positiv
 Input- DNA sequence file
 The code splits the entire sequence as per window size and then calculates the GC skew.
 GC skew-GC skew is when the nucleotides guanine and cytosine are over- or under-abundant in a particular region of DNA or RNA.
+
+
+>>>>>>>>>>motif_pos
+Input1-Enter DNA sequence
+Input2- Motif pattern to be found
+Motif-a sequence motif is a nucleotide or amino-acid sequence pattern that is widespread and has been proven or assumed to have a biological significance.
+This code finds the motif positon in the dna sequence. 
