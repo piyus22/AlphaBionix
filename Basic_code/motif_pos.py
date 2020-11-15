@@ -18,3 +18,16 @@ def motif_find(dna,motif):
 	print("no of motif repeats:%d"%(count))
 	print(lista)
 motif_find(dna,motif)
+
+
+#!/usr/bin/python3.5
+#Alternative for the same, using different approach
+import re
+seq=input("Enter DNA sequence")
+pattern=input("Enter motif to be searched ")
+def motif_search(seq,pattern):
+	pos=re.finditer(pattern,seq)
+	for val in pos:
+		print(val)
+motif_search(seq,pattern)
+
