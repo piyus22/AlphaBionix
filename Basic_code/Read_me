@@ -1,4 +1,6 @@
 >>>>>>>>>>Amino_acid_composition
+Input_file- Enter file containing protein sequences
+OUtput- Creates a file with amiino acid composition 
 The amino acid composition is the number of amino acids of each type normalized with the total number of residues.
 It is defined as Comp(i) = ni∗100/N, 
 where i stands for the 20 amino acid residues; ni is the number of residues of each type, and N is the total number of residues. The summation is through all the
@@ -6,5 +8,18 @@ residues in the considered protein.
 example of application- Amino acid composition is one of the parameters, which can be used to identify β-barrel membrane proteins.
 
 >>>>>>>>>>>Concensus.py
-5 different Dna sequences with length of 5 residues
+5 different Dna sequences with length of 5 residues are aligned on one over another and a consensus sequence is determined (for every residue position the maximum occuring residue is determined)
+Application- example-to determine the ancestral dna sequence.
+
+
+>>>>>>>>>>GC_content.py
+GC content refers to the Guanine and cytosine content within a DNA sequence. To calculate this we find the count of both this residues and divide it by the length of the entire sequence.
+Application- example-To decipher sequences which have diference in GC content to determine their possible role, an instance could be that they may be a part of the promoter region, apart from this there are lot of posibilities, Hence an important measure.
+
+
+>>>>>>>>>>Machine_learning_basic_file
+Input1- Training file.csv (composed of 19 features (values can be changed as per requirement))
+Input2- Contains the labels (0,1) of the feature file
+
+The code is used to calculate sensitivity, specificity, MCC, Likelihood, Positive predicted value (PPV) and Accuracy, using False positive (FP), True Positive (TP), False negative (FN), True negative (TN).
 
