@@ -39,3 +39,11 @@ This code finds the motif positon in the dna sequence. Also provides an alternat
 
 >>>>>>Bio_pt_basic.py
 Using Biopython module, find the dna sequence length, reverse complement and translated protein sequence.
+
+>>>>>>element_wise_comparison.py
+Two arrays of size (3,4) are made containing random numbers.
+To find:-
+a)greater 
+b)greater_equal 
+c)less 
+d)less_equal
